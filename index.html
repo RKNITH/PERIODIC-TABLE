@@ -5,171 +5,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Periodic Table</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <table height="600" width="100%" border="1px">
         <thead>
             <tr height="100">
-                <th align="center" bgcolor="#darkblue" colspan="18">
+                <th class="element" data-symbol="" align="center" bgcolor="#darkblue" colspan="18">
                     <h1>The Periodic Table</h1>
                 </th>
             </tr>
         </thead>
         <tbody>
             <tr height="44.44">
-                <td width="33.33" bgcolor="#fa7e48" align="center">1<br>H</td>
+                <td width="33.33" bgcolor="#fa7e48" class="element" data-symbol="H" align="center">1<br>H</td>
                 <td colspan="1"></td>
                 <td rowspan="3" colspan="10"></td>
                 <td colspan="5"></td>
-                <td width="33.33" align="center" bgcolor="lightgray">2<br>He</td>
+                <td width="33.33" class="element" data-symbol="He" align="center" bgcolor="lightgray">2<br>He</td>
             </tr>
 
             <tr height="44.44">
-                <td width="33.33" align="center" bgcolor="#e66ae2">3<br>Li</td>
-                <td width="33.33" align="center" bgcolor="#44b9eb">4<br>Be</td>
-                <td width="33.33" align="center" bgcolor="#a67847">5<br>B</td>
-                <td width="33.33" align="center" bgcolor="#fa7e48">6<br>C</td>
-                <td width="33.33" align="center" bgcolor="#fa7e48">7<br>N</td>
-                <td width="33.33" align="center" bgcolor="#fa7e48">8<br>O</td>
-                <td width="33.33" align="center" bgcolor="#fff8c7">9<br>F</td>
-                <td width="33.33" align="center" bgcolor="lightgray">10<br>Ne</td>
+                <td width="33.33" class="element" data-symbol="Li" align="center" bgcolor="#e66ae2">3<br>Li</td>
+                <td width="33.33" class="element" data-symbol="Be" align="center" bgcolor="#44b9eb">4<br>Be</td>
+                <td width="33.33" class="element" data-symbol="B" align="center" bgcolor="#a67847">5<br>B</td>
+                <td width="33.33" class="element" data-symbol="C" align="center" bgcolor="#fa7e48">6<br>C</td>
+                <td width="33.33" class="element" data-symbol="N" align="center" bgcolor="#fa7e48">7<br>N</td>
+                <td width="33.33" class="element" data-symbol="O" align="center" bgcolor="#fa7e48">8<br>O</td>
+                <td width="33.33" class="element" data-symbol="F" align="center" bgcolor="#fff8c7">9<br>F</td>
+                <td width="33.33" class="element" data-symbol="Ne" align="center" bgcolor="lightgray">10<br>Ne</td>
             </tr>
 
             <tr height="44.44">
-                <td width="33.33" align="center" bgcolor="#e66ae2">11<br>Na</td>
-                <td width="33.33" align="center" bgcolor="#44b9eb">12<br>Mg</td>
-                <td width="33.33" align="center" bgcolor="#84db88">13<br>Al</td>
-                <td width="33.33" align="center" bgcolor="#a67847">14<br>Si</td>
-                <td width="33.33" align="center" bgcolor="#fa7e48">15<br>P</td>
-                <td width="33.33" align="center" bgcolor="#fa7e48">16<br>S</td>
-                <td width="33.33" align="center" bgcolor="#fff8c7">17<br>Cl</td>
-                <td width="33.33" align="center" bgcolor="lightgray">18<br>Ar</td>
+                <td width="33.33" class="element" data-symbol="Na" align="center" bgcolor="#e66ae2">11<br>Na</td>
+                <td width="33.33" class="element" data-symbol="Mg" align="center" bgcolor="#44b9eb">12<br>Mg</td>
+                <td width="33.33" class="element" data-symbol="Al" align="center" bgcolor="#84db88">13<br>Al</td>
+                <td width="33.33" class="element" data-symbol="Si" align="center" bgcolor="#a67847">14<br>Si</td>
+                <td width="33.33" class="element" data-symbol="P" align="center" bgcolor="#fa7e48">15<br>P</td>
+                <td width="33.33" class="element" data-symbol="S" align="center" bgcolor="#fa7e48">16<br>S</td>
+                <td width="33.33" class="element" data-symbol="Cl" align="center" bgcolor="#fff8c7">17<br>Cl</td>
+                <td width="33.33" class="element" data-symbol="Ar" align="center" bgcolor="lightgray">18<br>Ar</td>
             </tr>
 
             <tr height="44.44">
-                <td width="33.33" align="center" bgcolor="#e66ae2"> 19<br>K</td>
-                <td width="33.33" align="center" bgcolor="#44b9eb"> 20<br>Ca</td>
-                <td width="33.33" align="center" bgcolor="#fae76e">21<br>Sc</td>
-                <td width="33.33" align="center" bgcolor="#fae76e">22<br>Ti</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 23<br>V</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 24<br>Cr</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 25<br>Mn</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 26<br>Fe</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 27<br>Co</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 28<br>Ni</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 29<br>Cu</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 30<br>Zn</td>
-                <td width="33.33" align="center" bgcolor="#84db88"> 31<br>Ga</td>
-                <td width="33.33" align="center" bgcolor="#a67847"> 32<br>Ge</td>
-                <td width="33.33" align="center" bgcolor="#a67847"> 33<br>As</td>
-                <td width="33.33" align="center" bgcolor="#fa7e48"> 34<br>Se</td>
-                <td width="33.33" align="center" bgcolor="#fff8c7"> 35<br>Br</td>
-                <td width="33.33" align="center" bgcolor="lightgray"> 36<br>Kr</td>
+                <td width="33.33" class="element" data-symbol="K" align="center" bgcolor="#e66ae2"> 19<br>K</td>
+                <td width="33.33" class="element" data-symbol="Ca" align="center" bgcolor="#44b9eb"> 20<br>Ca</td>
+                <td width="33.33" class="element" data-symbol="Sc" align="center" bgcolor="#fae76e">21<br>Sc</td>
+                <td width="33.33" class="element" data-symbol="ti" align="center" bgcolor="#fae76e">22<br>Ti</td>
+                <td width="33.33" class="element" data-symbol="V" align="center" bgcolor="#fae76e"> 23<br>V</td>
+                <td width="33.33" class="element" data-symbol="Cr" align="center" bgcolor="#fae76e"> 24<br>Cr</td>
+                <td width="33.33" class="element" data-symbol="Mn" align="center" bgcolor="#fae76e"> 25<br>Mn</td>
+                <td width="33.33" class="element" data-symbol="Fe" align="center" bgcolor="#fae76e"> 26<br>Fe</td>
+                <td width="33.33" class="element" data-symbol="Co" align="center" bgcolor="#fae76e"> 27<br>Co</td>
+                <td width="33.33" class="element" data-symbol="Ni" align="center" bgcolor="#fae76e"> 28<br>Ni</td>
+                <td width="33.33" class="element" data-symbol="Cu" align="center" bgcolor="#fae76e"> 29<br>Cu</td>
+                <td width="33.33" class="element" data-symbol="Zn" align="center" bgcolor="#fae76e"> 30<br>Zn</td>
+                <td width="33.33" class="element" data-symbol="Ga" align="center" bgcolor="#84db88"> 31<br>Ga</td>
+                <td width="33.33" class="element" data-symbol="Ge" align="center" bgcolor="#a67847"> 32<br>Ge</td>
+                <td width="33.33" class="element" data-symbol="As" align="center" bgcolor="#a67847"> 33<br>As</td>
+                <td width="33.33" class="element" data-symbol="Se" align="center" bgcolor="#fa7e48"> 34<br>Se</td>
+                <td width="33.33" class="element" data-symbol="Br" align="center" bgcolor="#fff8c7"> 35<br>Br</td>
+                <td width="33.33" class="element" data-symbol="Kr" align="center" bgcolor="lightgray"> 36<br>Kr</td>
             </tr>
 
             <tr height="44.44">
-                <td width="33.33" align="center" bgcolor="#e66ae2"> 37<br>Rb</td>
-                <td width="33.33" align="center" bgcolor="#44b9eb"> 38<br>Sr</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 39<br>Y</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 40<br>ZR</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 41<br>Nb</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 42<br>Mo</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 43<br>Tc</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 44<br>Ru</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 45<br>Rh</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 46<br>Pd</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 47<br>Ag</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 48<br>Cd</td>
-                <td width="33.33" align="center" bgcolor="#84db88"> 49<br>In</td>
-                <td width="33.33" align="center" bgcolor="#84db88"> 50<br>Sn</td>
-                <td width="33.33" align="center" bgcolor="#a67847"> 51<br>Sb</td>
-                <td width="33.33" align="center" bgcolor="#a67847"> 52<br>Te</td>
-                <td width="33.33" align="center" bgcolor="#fff8c7"> 53<br>I</td>
-                <td width="33.33" align="center" bgcolor="lightgray"> 54<br>Xe</td>
+                <td width="33.33" class="element" data-symbol="Rb" align="center" bgcolor="#e66ae2"> 37<br>Rb</td>
+                <td width="33.33" class="element" data-symbol="Sr" align="center" bgcolor="#44b9eb"> 38<br>Sr</td>
+                <td width="33.33" class="element" data-symbol="Y" align="center" bgcolor="#fae76e"> 39<br>Y</td>
+                <td width="33.33" class="element" data-symbol="ZR" align="center" bgcolor="#fae76e"> 40<br>ZR</td>
+                <td width="33.33" class="element" data-symbol="Nb" align="center" bgcolor="#fae76e"> 41<br>Nb</td>
+                <td width="33.33" class="element" data-symbol="Mo" align="center" bgcolor="#fae76e"> 42<br>Mo</td>
+                <td width="33.33" class="element" data-symbol="Tc" align="center" bgcolor="#fae76e"> 43<br>Tc</td>
+                <td width="33.33" class="element" data-symbol="Ru" align="center" bgcolor="#fae76e"> 44<br>Ru</td>
+                <td width="33.33" class="element" data-symbol="Rh" align="center" bgcolor="#fae76e"> 45<br>Rh</td>
+                <td width="33.33" class="element" data-symbol="Pd" align="center" bgcolor="#fae76e"> 46<br>Pd</td>
+                <td width="33.33" class="element" data-symbol="Ag" align="center" bgcolor="#fae76e"> 47<br>Ag</td>
+                <td width="33.33" class="element" data-symbol="Cd" align="center" bgcolor="#fae76e"> 48<br>Cd</td>
+                <td width="33.33" class="element" data-symbol="In" align="center" bgcolor="#84db88"> 49<br>In</td>
+                <td width="33.33" class="element" data-symbol="Sn" align="center" bgcolor="#84db88"> 50<br>Sn</td>
+                <td width="33.33" class="element" data-symbol="Sb" align="center" bgcolor="#a67847"> 51<br>Sb</td>
+                <td width="33.33" class="element" data-symbol="Te" align="center" bgcolor="#a67847"> 52<br>Te</td>
+                <td width="33.33" class="element" data-symbol="I" align="center" bgcolor="#fff8c7"> 53<br>I</td>
+                <td width="33.33" class="element" data-symbol="Xe" align="center" bgcolor="lightgray"> 54<br>Xe</td>
             </tr>
 
             <tr height="44.44">
-                <td width="33.33" align="center" bgcolor="#e66ae2"> 55<br>Cs</td>
-                <td width="33.33" align="center" bgcolor="#44b9eb"> 56<br>Ba</td>
-                <td width="33.33" align="center" colspan="1" bgcolor="#ffefeb">57-71<br></td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 72<br>Hf</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 73<br>Ta</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 74<br>W</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 75<br>Re</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 76<br>Os</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 77<br>Ir</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 78<br>Pt</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 79<br>Au</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 80<br>Hg</td>
-                <td width="33.33" align="center" bgcolor="#84db88"> 81<br>Ti</td>
-                <td width="33.33" align="center" bgcolor="#84db88"> 82<br>Pb</td>
-                <td width="33.33" align="center" bgcolor="#84db88"> 83<br>Bi</td>
-                <td width="33.33" align="center" bgcolor="#a67847"> 84<br>Po</td>
-                <td width="33.33" align="center" bgcolor="#fff8c7"> 85<br>At</td>
-                <td width="33.33" align="center" bgcolor="lightgray"> 86<br>Rn</td>
+                <td width="33.33" class="element" data-symbol="Cs" align="center" bgcolor="#e66ae2"> 55<br>Cs</td>
+                <td width="33.33" class="element" data-symbol="bA" align="center" bgcolor="#44b9eb"> 56<br>Ba</td>
+                <td width="33.33" class="element" data-symbol="" align="center" colspan="1" bgcolor="#ffefeb">57-71<br>
+                </td>
+                <td width="33.33" class="element" data-symbol="Hf" align="center" bgcolor="#fae76e"> 72<br>Hf</td>
+                <td width="33.33" class="element" data-symbol="Ta" align="center" bgcolor="#fae76e"> 73<br>Ta</td>
+                <td width="33.33" class="element" data-symbol="w" align="center" bgcolor="#fae76e"> 74<br>W</td>
+                <td width="33.33" class="element" data-symbol="Re" align="center" bgcolor="#fae76e"> 75<br>Re</td>
+                <td width="33.33" class="element" data-symbol="Os" align="center" bgcolor="#fae76e"> 76<br>Os</td>
+                <td width="33.33" class="element" data-symbol="Ir" align="center" bgcolor="#fae76e"> 77<br>Ir</td>
+                <td width="33.33" class="element" data-symbol="Pt" align="center" bgcolor="#fae76e"> 78<br>Pt</td>
+                <td width="33.33" class="element" data-symbol="Au" align="center" bgcolor="#fae76e"> 79<br>Au</td>
+                <td width="33.33" class="element" data-symbol="Hg" align="center" bgcolor="#fae76e"> 80<br>Hg</td>
+                <td width="33.33" class="element" data-symbol="Ti" align="center" bgcolor="#84db88"> 81<br>Ti</td>
+                <td width="33.33" class="element" data-symbol="Pb" align="center" bgcolor="#84db88"> 82<br>Pb</td>
+                <td width="33.33" class="element" data-symbol="Bi" align="center" bgcolor="#84db88"> 83<br>Bi</td>
+                <td width="33.33" class="element" data-symbol="Po" align="center" bgcolor="#a67847"> 84<br>Po</td>
+                <td width="33.33" class="element" data-symbol="At" align="center" bgcolor="#fff8c7"> 85<br>At</td>
+                <td width="33.33" class="element" data-symbol="Rn" align="center" bgcolor="lightgray"> 86<br>Rn</td>
             </tr>
 
             <tr height="44.44">
-                <td width="33.33" align="center" bgcolor="#e66ae2"> 87<br>Fr</td>
-                <td width="33.33" colspan="1" align="center" bgcolor="#44b9eb"> 88<br>Ra</td>
-                <td width="33.33" align="center" colspan="1" bgcolor="#ffefeb">89-109<br></td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 104<br>Rf</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 105<br>Db</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 106<br>Sg</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 107<br>Bh</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 108<br>Hs</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 109<br>Mt</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 110<br>Ds</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 111<br>Rg</td>
-                <td width="33.33" align="center" bgcolor="#fae76e"> 112<br>Cn</td>
-                <td width="33.33" align="center"> 113<br>Nh</td>
-                <td width="33.33" align="center"> 114<br>Fl</td>
-                <td width="33.33" align="center"> 115<br>Mc</td>
-                <td width="33.33" align="center"> 116<br>Lv</td>
-                <td width="33.33" align="center"> 117<br>Ts</td>
-                <td width="33.33" align="center"> 118<br>Og</td>
+                <td width="33.33" class="element" data-symbol="Fr" align="center" bgcolor="#e66ae2"> 87<br>Fr</td>
+                <td width="33.33" colspan="1" class="element" data-symbol="Ra" align="center" bgcolor="#44b9eb">
+                    88<br>Ra
+                </td>
+                <td width="33.33" class="element" data-symbol="" align="center" colspan="1" bgcolor="#ffefeb">89-109<br>
+                </td>
+                <td width="33.33" class="element" data-symbol="Rf" align="center" bgcolor="#fae76e"> 104<br>Rf</td>
+                <td width="33.33" class="element" data-symbol="Db" align="center" bgcolor="#fae76e"> 105<br>Db</td>
+                <td width="33.33" class="element" data-symbol="Sg" align="center" bgcolor="#fae76e"> 106<br>Sg</td>
+                <td width="33.33" class="element" data-symbol="Bh" align="center" bgcolor="#fae76e"> 107<br>Bh</td>
+                <td width="33.33" class="element" data-symbol="Hs" align="center" bgcolor="#fae76e"> 108<br>Hs</td>
+                <td width="33.33" class="element" data-symbol="Mt" align="center" bgcolor="#fae76e"> 109<br>Mt</td>
+                <td width="33.33" class="element" data-symbol="Ds" align="center" bgcolor="#fae76e"> 110<br>Ds</td>
+                <td width="33.33" class="element" data-symbol="Rg" align="center" bgcolor="#fae76e"> 111<br>Rg</td>
+                <td width="33.33" class="element" data-symbol="Cn" align="center" bgcolor="#fae76e"> 112<br>Cn</td>
+                <td width="33.33" class="element" data-symbol="Nh" align="center"> 113<br>Nh</td>
+                <td width="33.33" class="element" data-symbol="Fl" align="center"> 114<br>Fl</td>
+                <td width="33.33" class="element" data-symbol="Mc" align="center"> 115<br>Mc</td>
+                <td width="33.33" class="element" data-symbol="Lv" align="center"> 116<br>Lv</td>
+                <td width="33.33" class="element" data-symbol="Ts" align="center"> 117<br>Ts</td>
+                <td width="33.33" class="element" data-symbol="Og" align="center"> 118<br>Og</td>
             </tr>
 
             <tr height="44.44">
                 <td width="33.33" colspan="2" rowspan="2"></td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 57<br>La</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 58<br>Ce</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 59<br>Pr</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 60<br>Nd</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 61<br>Pm</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 62<br>Sm</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 63<br>Eu</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 64<br>Gd</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 65<br>Tb</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 66<br>Dy</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 67<br>Ho</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 68<br>Er</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 69<br>Tm</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 70<br>Yb</td>
-                <td width="33.33" colspan="1" align="center" bgcolor="#ffefeb"> 71<br>Lu</td>
+                <td width="33.33" class="element" data-symbol="La" align="center" bgcolor="#ffefeb"> 57<br>La</td>
+                <td width="33.33" class="element" data-symbol="Ce" align="center" bgcolor="#ffefeb"> 58<br>Ce</td>
+                <td width="33.33" class="element" data-symbol="Pr" align="center" bgcolor="#ffefeb"> 59<br>Pr</td>
+                <td width="33.33" class="element" data-symbol="Nd" align="center" bgcolor="#ffefeb"> 60<br>Nd</td>
+                <td width="33.33" class="element" data-symbol="Pm" align="center" bgcolor="#ffefeb"> 61<br>Pm</td>
+                <td width="33.33" class="element" data-symbol="Sm" align="center" bgcolor="#ffefeb"> 62<br>Sm</td>
+                <td width="33.33" class="element" data-symbol="Eu" align="center" bgcolor="#ffefeb"> 63<br>Eu</td>
+                <td width="33.33" class="element" data-symbol="Gd" align="center" bgcolor="#ffefeb"> 64<br>Gd</td>
+                <td width="33.33" class="element" data-symbol="Tb" align="center" bgcolor="#ffefeb"> 65<br>Tb</td>
+                <td width="33.33" class="element" data-symbol="Dy" align="center" bgcolor="#ffefeb"> 66<br>Dy</td>
+                <td width="33.33" class="element" data-symbol="Ho" align="center" bgcolor="#ffefeb"> 67<br>Ho</td>
+                <td width="33.33" class="element" data-symbol="Er" align="center" bgcolor="#ffefeb"> 68<br>Er</td>
+                <td width="33.33" class="element" data-symbol="Tm" align="center" bgcolor="#ffefeb"> 69<br>Tm</td>
+                <td width="33.33" class="element" data-symbol="Yb" align="center" bgcolor="#ffefeb"> 70<br>Yb</td>
+                <td width="33.33" colspan="1" class="element" data-symbol="Lu" align="center" bgcolor="#ffefeb">
+                    71<br>Lu
+                </td>
             </tr>
 
             <tr height="44.44">
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 89<br>Ac</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 90<br>Th</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 91<br>Pa</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 92<br>U</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 93<br>Np</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 94<br>Pu</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 95<br>Am</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 96<br>Cm</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 97<br>Bk</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 98<br>Cf</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 99<br>Es</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 100<br>Fm</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 101<br>Md</td>
-                <td width="33.33" align="center" bgcolor="#ffefeb"> 102<br>No</td>
-                <td width="33.33" colspan="1" align="center" bgcolor="#ffefeb"> 103<br>Lr</td>
+                <td width="33.33" class="element" data-symbol="Ac" align="center" bgcolor="#ffefeb"> 89<br>Ac</td>
+                <td width="33.33" class="element" data-symbol="Th" align="center" bgcolor="#ffefeb"> 90<br>Th</td>
+                <td width="33.33" class="element" data-symbol="Pa" align="center" bgcolor="#ffefeb"> 91<br>Pa</td>
+                <td width="33.33" class="element" data-symbol="U" align="center" bgcolor="#ffefeb"> 92<br>U</td>
+                <td width="33.33" class="element" data-symbol="Np" align="center" bgcolor="#ffefeb"> 93<br>Np</td>
+                <td width="33.33" class="element" data-symbol="Pu" align="center" bgcolor="#ffefeb"> 94<br>Pu</td>
+                <td width="33.33" class="element" data-symbol="Am" align="center" bgcolor="#ffefeb"> 95<br>Am</td>
+                <td width="33.33" class="element" data-symbol="Cm" align="center" bgcolor="#ffefeb"> 96<br>Cm</td>
+                <td width="33.33" class="element" data-symbol="Bk" align="center" bgcolor="#ffefeb"> 97<br>Bk</td>
+                <td width="33.33" class="element" data-symbol="Cf" align="center" bgcolor="#ffefeb"> 98<br>Cf</td>
+                <td width="33.33" class="element" data-symbol="Es" align="center" bgcolor="#ffefeb"> 99<br>Es</td>
+                <td width="33.33" class="element" data-symbol="Fm" align="center" bgcolor="#ffefeb"> 100<br>Fm</td>
+                <td width="33.33" class="element" data-symbol="Md" align="center" bgcolor="#ffefeb"> 101<br>Md</td>
+                <td width="33.33" class="element" data-symbol="No" align="center" bgcolor="#ffefeb"> 102<br>No</td>
+                <td width="33.33" colspan="1" class="element" data-symbol="Lr" align="center" bgcolor="#ffefeb">
+                    103<br>Lr
+                </td>
             </tr>
 
         </tbody>
     </table>
+    <div id="element-info" class="hidden">
+        <h2 id="element-symbol"></h2>
+        <ul id="element-properties"></ul>
+        <button onclick="closeInfo()">Close</button>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

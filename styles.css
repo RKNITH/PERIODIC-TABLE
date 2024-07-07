@@ -1,0 +1,53 @@
+#element-info {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 80%;
+    overflow-y: auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+#element-symbol {
+    text-align: center;
+    font-size: 40px;
+}
+
+#element-properties {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#element-info button {
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 30px;
+    padding: 10px 20px;
+    color: aliceblue;
+    min-width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.hidden {
+    display: none;
+}
+
+/* For smaller screens */
+@media (max-width: 600px) {
+    #element-info {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.element {
+    cursor: pointer;
+}
